@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BitGo Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Block Test Suite(failed)">
+    <classes>
+      <class name="tests.BlockTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testValidateTransactionText"/>
+        </methods>
+      </class> <!-- tests.BlockTests -->
+    </classes>
+  </test> <!-- Block Test Suite(failed) -->
+</suite> <!-- Failed suite [BitGo Automation Suite] -->
